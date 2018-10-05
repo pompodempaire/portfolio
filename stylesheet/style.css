@@ -1,0 +1,155 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: ;
+  text-align: center;
+background: -webkit-linear-gradient(#7CC9F8, #86E59F); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#7CC9F8, #86E59F); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#7CC9F8, #86E59F); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#7CC9F8, #86E59F); /* Standard syntax */
+}
+
+h1{
+  font-size: 45px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: -10px;
+  }
+
+h2{
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: -10px;
+    }
+
+
+span{
+  text-align: center;
+}
+
+p{
+padding-top: 30px;
+}
+
+.linea{
+  background-color: white;
+  height: 4px;
+  width: 80%;
+  margin: auto;
+}
+.contenido {
+  width: 70%;
+  margin: auto;
+}
+
+.part1 {
+background-color: #000000;
+}
+
+.bio{
+  font-size: 25px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: auto;
+}
+.part2 {
+background-color: #ffffff;
+}
+
+.proyect-title{
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.social {
+text-align: right;
+}
+
+
+.proyect-exp{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.postit {
+    line-height: 5;
+    text-align: center;
+    width: 275px;
+    margin: 25px;
+    min-height: 185px;
+    max-height: 245px;
+    padding-top: 35px;
+    position: relative;
+    border: 1px solid #E8E8E8;
+    border-top: 60px solid white!important;
+    font-size: 22px;
+    border-bottom-right-radius: 60px 5px;
+    display: inline-block;
+    /* background: #ffff88; */
+    background: white;
+    /* background: -moz-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(81%,#ffff88), color-stop(82%,#ffff88), color-stop(82%,#ffff88), color-stop(100%,#ffffc6));
+    background: -webkit-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%);
+    background: -o-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%);
+    background: -ms-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%);
+    background: linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); */
+}
+*, :after, :before{
+  box-sizing: inherit;
+}
+.postit:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: -0px;
+    bottom: 20px;
+    width: 200px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 15px 5px rgba(0, 0, 0, 0.40);
+    -moz-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+    -o-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+    -ms-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+    transform: matrix(-1, -0.1, 0, 1, 0, 0);
+}
+
+.imgcircle {
+    width: 600px;
+    height:600px;
+    border-radius:300px;
+    float: left;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #86E59F;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #7CC9F8;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
